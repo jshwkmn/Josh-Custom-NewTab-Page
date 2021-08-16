@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>joshwik@home > newtab</title>
+
+  <style>
+    html {
+      align-items: center;
+      background-color: #282a36;
+      color: #c5c8c6;
+      font: 22px/1 "Inconsolata", monospace;
+      display: center;
+      height: 100%;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #282a36;
+      border-radius: 2px;
+      box-shadow: 1px 1px 6px #282a36;
+      color: #6272a4;
+      display: scale;
+      flex-direction: column;
+      min-height: 30ch;
+      min-width: 50vw;
+      padding: 2em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p span {
+      color: #8be9fd;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      column-gap: 2em;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 1em 0;
+    }
+
+    ul:nth-child(5n + 1) li:first-child {
+      color: #a54242;
+    }
+
+    ul:nth-child(5n + 2) li:first-child {
+      color: #de935f;
+    }
+
+    ul:nth-child(5n + 3) li:first-child {
+      color: #ff5555;
+    }
+
+    ul:nth-child(5n + 4) li:first-child {
+      color: #50fa7b;
+    }
+
+    ul:nth-child(5n + 5) li:first-child {
+      color: #ffb86c;
+    }
+
+    li:first-child {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1em;
+    }
+
+    p #cursor {
+      background-color: #8be9fd;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <p><span>joshwik@home &gt; </span>newtab</p>
+
+  <nav>
+    <ul>
+      <li>general</li>
+      <li><a href="https://youtube.com">youtube</a></li>
+      <li><a href="twitch.tv">twitch</a></li>
+      <li><a href="https://music.amazon.ca/?">amazonmusic</a></li>
+    </ul>
+
+    <ul>
+      <li>education</li>
+      <li><a href="https://classroom.google.com/u/2/h">classroom</a></li>
+      <li><a href="https://docs.google.com/document/u/2/?tgif=c">docs</a></li>
+    </ul>
+
+    <ul>
+      <li>contentcreation</li>
+      <li><a href="https://www.youtube.com/channel/UCx3CeX675yEfFPuWTuBsq_g">youtube</a></li>
+      <li><a href="https://www.canva.com/">canva</a></li>
+      <li><a href="http://drive.google.com/">drive</a></li>
+    </ul>
+
+    <ul>
+      <li>coding</li>
+      <li><a href="https://github.com/jshwkmn">github</a></li>
+      <li><a href="https://www.freecodecamp.org/">courses</a></li>
+    </ul>
+    <ul>
+      <li>linuxdistros</li>
+      <li><a href="https://ubuntu.com/">ubuntu</a></li>
+      <li><a href="https://wiki.archlinux.org/">archwiki</a></li>
+      <li><a href="https://getfedora.org/">fedora</a></li>
+    </ul>
+
+  </nav>
+
+  <p><span>joshwik@home &gt; </span> <span id="cursor">_</span></p>
+</body>
+</html>
